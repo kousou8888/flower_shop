@@ -1,6 +1,9 @@
 @charset "utf-8";
 
 /* ▼ スマホサイズ用*/
+#content {
+    padding: 0 25px;
+}
 #content h3 {
     position: relative;
     margin-bottom: 40px;
@@ -15,20 +18,22 @@
     display: flex;
     justify-content: right;
     max-width: 400px;
-    height: 200px;
+    height: auto;
+    padding-top: 25px;
     margin: 0 auto;
     background-color: #F2F2F2;
 }
 #profile > p {
     align-self: flex-end;
     min-width: 160px;
-    height: 162px;
+    height: auto;
 }
 
 #profile > div {
     align-self: center;
     margin-left: 10px;
     margin-right: 25px;
+    padding-bottom: 10px;
 }
 #profile > div p {
     text-align: center;
