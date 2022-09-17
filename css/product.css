@@ -1,6 +1,10 @@
 @charset "utf-8";
 
 /* ▼ スマホサイズ用*/
+#content {
+    padding: 0 25px;
+}
+
 #content h3 {
     position: relative;
     padding-bottom: 7px;
@@ -16,14 +20,14 @@
     justify-content: left;
     align-items: center;
     margin: 0 auto 15px auto;
-    width: 407px;
+    max-width: 407px;
     height: auto;
     background-color: #F2F2F2;
     box-shadow: 7px 7px 4px rgba(204,194,154,.75);
 }
 #content .product_box p:first-child {
     width: 138px;
-    height: 149px;
+    height: auto;
     margin-right: 25px;
     border: 1px solid #000;
 }

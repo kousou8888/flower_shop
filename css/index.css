@@ -60,6 +60,7 @@
 	top: 50%;
 	left: calc(100vw * 100 / 500);
 	transform: translateY(-50%);
+	padding-right: 50px;
 	font-weight: bold;
 	z-index: 100;
 }
@@ -106,7 +107,6 @@
 	height: auto;
 	margin-left: 2%;
 	margin-right: 5%;
-	background-color: #333;
 	border: 1px solid #000;
 }
 #news .news_cont>div:last-child {
