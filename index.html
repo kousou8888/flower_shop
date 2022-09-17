@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お花紹介 - フラワーショップ花蓮 (かれん)</title>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+<!-- ▼ヘッダーとメニュー-->
+<header>
+    <h1><a href="index.html"><img src="img/rogo_test.png" alt="フラワーショップ花蓮 (かれん)"></a></h1>
+
+    <input type="checkbox" id="nav_tab">
+	<label for="nav_tab" id="nab_btn">
+	<div class="btn_bar"></div>
+	<div class="btn_bar"></div>
+	<div class="btn_bar"></div>
+	</label>
+    <nav>
+        <ul>
+            <li id="menu1"><a href="index.html">HOME<span>　- ホーム -</span></a></li>
+            <li id="menu2"><a href="product.html">PRODUCT<span>　- 商品 -</span></a></li>
+            <li id="menu3"><a href="about.html">ABOUT<span>　- お店について -</span></a></li>
+            <li id="menu4"><a href="workshop.html">WORK SHOP<span>　-  ワークショップ -</span></a></li>
+            <li id="menu5"><a href="contact.html">CONTACT<span>　- お問い合わせ -</span></a></li>
+        </ul>
+    </nav> 
+</header>
+<!-- ▲ヘッダーとメニュー-->
+
+
+<!-- ▼メインコンテンツエリア-->
+<div id="wrap">
+	<div id="main_visual">
+        <div class="slide" id="slide_show">            
+            <p><img src="img/flower3.jpg" alt="4月中旬OPEN" class="image1"></p>
+            <p><img src="img/Dried_flower2.jpg" alt="4月中旬OPEN" class="image2"></p>
+            <p><img src="img/plant4.jpg" alt="4月中旬OPEN" class="image3"></p>  <!--　メインビジュアルここから　-->   
+        </div>
+        <div id="visual_text">
+            <p>4月中旬<br><span>OPEN!<span></p>
+        </div>
+    </div>  <!--　メインビジュアルここまで　-->
+
+	<div id="top_main">
+    	<div id="top_main_text">
+        	<p>「フラワーショップ花蓮（かれん）」<br>
+                街中の小さな花屋が、2023年4月中旬にオープンします！<br>
+                ちょっとした贈り物に、あの人へのお礼に、自分へのご褒美に…<br>
+                色とりどりのお花を、一輪からでもお買い求めいただけます。<br>
+                ぜひ、お気軽にふらっとお立ち寄りください。</p>
+        </div>
+    
+    	<div id="news">  <!--　インフォメーションここから　-->
+			<h2>NEWS / EVENT</h2>
+
+            <a href="#modal_mothersday">  <!--　news記事1枚目　-->
+                <div class="news_cont"> 
+                    <div>  <!--　newsサムネ画像　-->
+                        <p><img src="img/mothersday2.jpg" alt="母の日フェア"></p>
+                    </div>
+                    <div>
+                        <h3><span>SOON</span>2023年5月14日(日)</h3>
+                        <p>母の日フェア開催!<br>赤いカーネーションが15%OFF!</p>
+                    </div>
+                </div>
+            </a>
+            <div class="modal" id="modal_mothersday">
+                <div>
+                    <a href="#news">×</a>
+                    <p><img src="img/mothersday2.jpg" alt="母の日フェア"></p>
+                </div>
+            </div>
+
+            <a href="#modal_fathersday">  <!--　news記事2枚目　-->
+                <div class="news_cont"> 
+                    <div>  <!--　newsサムネ画像　-->
+                        <p><img src="img/fathersday2.jpg" alt="父の日フェア"></p>
+                    </div>
+                    <div>
+                        <h3><span>SOON</span>2023年6月18日(日)</h3>
+                        <p>父の日フェア開催!<br>黄色いお花が10%OFF!</p>
+                    </div>
+                </div>
+            </a>
+            <div class="modal" id="modal_fathersday">
+                <div>
+                    <a href="#news">×</a>
+                    <p><img src="img/fathersday2.jpg" alt="父の日フェア"></p>
+                </div>
+            </div>
+
+    	</div>  <!--　インフォメーションここまで　-->
+    </div>
+</div>
+<!-- ▲メインコンテンツエリア-->
+
+<button id="page_top">▲TOP</button>  <!-- トップリターンボタン-->
+
+<!-- ▼フッター-->
+<footer>
+    <div id="info_field">
+    <address><div><p>TEL: 097-123-4567</p>
+    <p id="address">住所: 大分市都町3丁目1-1</p></div>
+    <p>営業時間: 9:30 ～ 19:00 (木曜日定休日)</p>
+    </address>
+    <p id="copyright"><small>&copy;2022 フラワーショップ花蓮(かれん) All rights reserved.</small></p>
+    </div>
+</footer>
+<!-- ▲フッター-->
+
+<script src="js/main.js"></script>
+</body>
+</html>
