@@ -19,44 +19,44 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-margin: 0;
-padding: 0;
-border: none;
-font-style: normal;
-text-align: left;
-zoom: 1;
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	text-align: left;
+	zoom: 1;
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-display: block;
+	display: block;
 }
 table {
-border-collapse: collapse;
-font-family: inherit;
+	border-collapse: collapse;
+	font-family: inherit;
 }
 h1,h2,h3,h4,h5 {
-font-size: 100%;
-font-weight: normal;
-line-height: 1;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1;
 }
 input,textarea,select {
-font-family: inherit;
-font-size: 16px;
+	font-family: inherit;
+	font-size: 16px;
 }
 input[type="button"],input[type="text"],input[type="submit"] {
--webkit-appearance: none;
-border-radius: 0;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
 textarea {
-resize: none;
--webkit-appearance: none;
-border-radius: 0;
+	resize: none;
+	-webkit-appearance: none;
+	border-radius: 0;
 }
 th,td {
-border-collapse: collapse;
+	border-collapse: collapse;
 }
 ul,ol {
-list-style-type: none;
+	list-style-type: none;
 }
 img {
 	vertical-align: bottom;
@@ -123,7 +123,7 @@ header nav ul li a {
 	max-width:1200px;
 	margin:100px auto 0 auto;
 }
-#wrap h2 {
+#wrap > h2 {
     text-align: center;
 }
 
@@ -172,6 +172,7 @@ address div{
 	/*▼ヘッダー*/
 	html {
 		font-size: 12px;
+		line-height: 1.6;
 		
 	}
 	
@@ -266,7 +267,7 @@ address div{
 
 	/*▼メインコンテンツエリア*/
 	/*▼各ページタイトル*/
-	#wrap h2 {
+	#wrap > h2 {
 		padding-top: 20px;
         font-size: 36px;
 		line-height: 1;
