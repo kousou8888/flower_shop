@@ -53,10 +53,6 @@
     line-height: 17px;
 }
 
-#content #profile > div > p:last-child {
-    font-size: 10px;
-}
-
 #workshop {
     margin: 0 auto 60px auto;
     padding: 10px 0 30px 0;
@@ -109,10 +105,28 @@
 	#content h3 {
         font-size: 28px;
     }
-    
-    #content #profile {
-        max-width: 600px;
-        height: 200px;
-    }
 
+    #profile {
+        max-width: 800px;
+        margin-bottom: 90px;
+    }
+    #profile > p {
+        min-width: 230px;
+    }
+    #profile > div p:first-child {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    #profile > div p:first-child span {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    #profile > div p:last-child {
+        padding: 0 15px;
+        font-size: 16px;
+        line-height: 17px;
+    }
+    #workshop {
+        max-width: 800px;
+    }
 }

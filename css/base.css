@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Sans+JP&display=swap');
 
+html {
+	font-size: 17px;
+}
 body {
 	overflow-x: hidden;
 }
@@ -86,10 +89,13 @@ header {
 	z-index: 900;
 }
 header a {
+	display: block;
 	color: #000;
+	text-align: center;
 }
 header h1 {
-	margin-left: 25px;
+	margin-left: 20px;
+	width: 260px;
 }
 #nav_tab {
 	display:none;
@@ -107,24 +113,39 @@ header nav ul {
 	align-items: center;
 }
 header nav ul li {
-	margin-right: 10px;
+	margin-right: calc(100vw * 50 / 1366);
+	text-align: center;
 }
 header nav ul li:last-child {
 	margin-right: 0;
 }
-header nav ul li a {
-	display: flex;
-	align-items: center;
+header nav ul li a span {
+	display: block;
+	text-align: center;
+	font-size: 10px;
 }
 
 /*▼メインコンテンツエリア*/
 /*▼各ページタイトル*/
 #wrap {
+	margin-top: 100px;
+}
+#wrap #content {
 	max-width:1200px;
-	margin:100px auto 0 auto;
+	margin:0 auto;
+	padding: 0 25px;
 }
 #wrap > h2 {
     text-align: center;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	font-size: 48px;
+	line-height: 1;
+	letter-spacing: 11px;
+}
+#wrap > h2 span {
+	font-size: 29px;
+	letter-spacing: 1.2px;
 }
 
 /*▼トップリターンボタン*/
@@ -152,36 +173,32 @@ address div{
 }
 
 
-@media screen and (max-width:680px){
+@media screen and (max-width:840px){
 	header h1 {
-		margin-left: 10px;
+		margin-left: 2%;
+		width: 170px;
 	}
 	header nav {
-		margin-right: 10px;
+		margin-right: 2%;
 	}
 	header nav ul li a {
-		font-size: 0.8em;
+		font-size: 0.9em;
+	}
+	header nav ul li a span {
+		font-size: 0.5em;
 	}
 	header nav ul li {
-		margin-right: 7px;
+		margin-right: calc(100vw * 30 / 840);
 	}
 }
 
-/*▼スマホサイズ用*/
-@media screen and (max-width:500px){
-	/*▼ヘッダー*/
-	html {
-		font-size: 12px;
-		line-height: 1.6;
-		
-	}
-	
+@media screen and (max-width:690px){
 	/*▼ヘッダー*/
 	header {
 		justify-content: center;
 	}
 	header h1 {
-		width:160px;
+		width:240px;
 	}
 	header nav {
 		position: fixed;
@@ -201,16 +218,22 @@ address div{
 		display:block;
 	}
 	header nav ul li {
+		text-align: left;
 		margin-right: 0px;
+		padding:12px 0 12px 35px;
 	}
 	header nav ul li a {
-		justify-content: left;
-		padding:10px 0 10px 35px;
 		color: #fff;
 		font-size:17px;
+		line-height: 20px;
+	}
+	header nav ul li a br {
+		display: inline-block;
 	}
 	header nav ul li a span {
+		display: inline;
 		font-size:14px;
+		line-height: 14px;
 	}
 	#nav_tab {
 		display: none;
@@ -264,16 +287,26 @@ address div{
 		top: 7px;
 		transform: rotate(-45deg);
 	}
+}
+
+/*▼スマホサイズ用*/
+@media screen and (max-width:500px){
+	html {
+		font-size: 12px;
+		line-height: 1.6;
+		
+	}
 
 	/*▼メインコンテンツエリア*/
 	/*▼各ページタイトル*/
 	#wrap > h2 {
 		padding-top: 20px;
+		padding-bottom: 30px;
         font-size: 36px;
 		line-height: 1;
 		letter-spacing: 7px;
     }
-    #wrap h2 span {
+    #wrap > h2 span {
         font-size: 21px;
 		letter-spacing: 1px;
     }

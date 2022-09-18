@@ -1,7 +1,28 @@
 @charset "utf-8";
+#content h3 {
+    position: relative;
+    padding-bottom: 7px;
+    margin: 25px auto 20px auto; 
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 18px;
+    width: fit-content;
+    border-bottom: 2px solid #7E8772;
+}
+#content h3 span {
+    font-size: 15px;
+}
 
 
-/*▼スマホサイズ用*/
-@media screen and (max-width:500px){
-	
+/* ▼ PCサイズ用*/
+@media screen and (min-width:501px){
+	#content h3 {
+        font-size: 28px;
+    }
+    
+    #content #profile {
+        max-width: 600px;
+        height: 200px;
+    }
+
 }

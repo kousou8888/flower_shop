@@ -58,7 +58,7 @@
 #visual_text {
 	position: absolute;
 	top: 50%;
-	left: calc(100vw * 100 / 500);
+	left: calc(100vw * 130 / 500);
 	transform: translateY(-50%);
 	padding-right: 50px;
 	font-weight: bold;
@@ -67,7 +67,7 @@
 #visual_text p {
 	text-align: center;
 	font-style: italic;
-	font-size: calc(100vw * 72 / 500);
+	font-size: calc(100vw * 62 / 500);
 	font-family: 'Noto Sans JP', sans-serif;
 	color: #fff;
 	text-shadow: -3px -3px 0 #8E8779, -3px 0 0 #8E8779, -3px 3px 0 #8E8779,
@@ -197,19 +197,33 @@
 
 /* ▼ PC用*/
 @media screen and (min-width:501px){
-	
+	#visual_text p {
+		text-shadow: -3px -3px 0 #8E8779, -3px 0 0 #8E8779, -3px 3px 0 #8E8779,
+					  0 -1px 0 #8E8779,                  0 3px 0 #8E8779,
+					3px -3px 0 #8E8779,  3px 0 0 #8E8779,  3px 3px 0 #8E8779;
+	}
+
+	#news .news_cont {
+		max-width: 500px;
+	}
+
+	#news .news_cont>div:first-child p img {
+		width: 120px;
+	}
+
 	#top_main_text p {
-		line-height: 30px;
+		line-height: 39px;
 	}
 	
 	#news .news_cont h3 span{
 		padding: 2px 15px;
 		margin-right: 10px;
-		border-radius: 7px;
 	}
 
 	#news h2 {
-		font-size: 38px;
+		font-size: 34px;
+		line-height: 34px;
+		padding-bottom: 7px;
 	}
 
 	#news a {
