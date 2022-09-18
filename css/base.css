@@ -218,6 +218,7 @@ address div{
 		display:block;
 	}
 	header nav ul li {
+		text-align: left;
 		margin-right: 0px;
 		padding:12px 0 12px 35px;
 	}
