@@ -7,10 +7,7 @@
 }
 #intro > p {
     margin-right: 1%;
-}
-#intro > p img {
-    width: 220px;
-    margin-right: 1%;
+    min-width: 200px;
 }
 #intro > div {
     align-self: center;
