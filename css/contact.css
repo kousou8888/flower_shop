@@ -13,13 +13,18 @@
     font-size: 15px;
 }
 
+form {
+    width: 100%;
+}
 form p {
-    max-width: 294px;
+    max-width: 299px;
     height: 31px;
     margin: 0 auto 50px auto;
 }
 input {
-    width: 100%;
+    margin: 0;
+    padding: 0;
+    width: 99%;
     height: 100%;
 }
 input[type="text"], input[type="email"], input[type="tel"], select, textarea {
@@ -31,12 +36,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, se
     border: 2px solid rgb(255, 145, 49);
 }
 form #textarea {
-    max-width: 294px;
+    max-width: 299px;
     margin: 0 auto;
     margin-bottom: 30px;
 }
 form textarea {
-    width: 100%;
+    width: 99%;
     height: 129px;
     margin-top: 2px;
 }
@@ -63,6 +68,9 @@ button {
         height: 200px;
     }
 
+    form {
+
+    }
     form p {
         max-width: 394px;
         height: 31px;
