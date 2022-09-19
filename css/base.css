@@ -129,6 +129,7 @@ header nav ul li a span {
 /*▼各ページタイトル*/
 #wrap {
 	margin-top: 100px;
+	margin-bottom: 100px;
 }
 #wrap #content {
 	max-width:1200px;

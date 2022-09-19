@@ -37,13 +37,24 @@
     <h2>CONTACT<br><span>-お問い合せ-</span></h2>
 
     <div id="content">
-        <h3>NAME / お名前<span>(必須)</span></h3>
-
-        <h3>TEL / 電話番号<span>(必須)</span></h3>
-
-        <h3>MAIL / メールアドレス</h3>
-
-        <h3>お問い合わせ内容</h3>
+        <form action="#" method="post" name="form">
+            <h3>NAME / お名前<span>(必須)</span></h3>
+            <p><input type="text" name="name" required></p>
+            <h3>TEL / 電話番号<span>(必須)</span></h3>
+            <p><input type="tel" name="tel" required></p>
+            <h3>MAIL / メールアドレス</h3> 
+            <p><input type="email" name="mail"></p>
+            <h3>お問い合わせ内容</h3>
+            <div id="textarea">
+                <select name="kind">
+                    <option value="0">お問い合わせ</option>
+                    <option value="1">ワークショップ申込</option>
+                    <option value="2">その他</option>
+                </select>
+                <textarea name="comment"></textarea>
+            </div>
+            <button type="submit">送信</button>
+        </form>
     </div>
 </div>
 <!-- ▲メインコンテンツエリア-->

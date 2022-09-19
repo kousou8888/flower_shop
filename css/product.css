@@ -8,12 +8,15 @@
 #content h3 {
     position: relative;
     padding-bottom: 7px;
-    margin: 25px auto 20px auto; 
+    margin: 50px auto 10px auto;
     letter-spacing: 1px;
     font-size: 18px;
     line-height: 18px;
     width: fit-content;
     border-bottom: 2px solid #7E8772;
+}
+#content h3:nth-of-type(1) {
+    margin-top: 20px;
 }
 
 #content .product_box {
@@ -47,6 +50,7 @@
 @media screen and (min-width:501px){
 	#content h3 {
         font-size: 29px;
+        margin: 80px auto 10px auto;
     }
 
     #content h3 + div{
