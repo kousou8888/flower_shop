@@ -13,6 +13,9 @@
     font-size: 15px;
 }
 
+form {
+    max-width: 100%;
+}
 form p {
     max-width: 299px;
     height: 31px;
@@ -65,6 +68,9 @@ button {
         height: 200px;
     }
 
+    form {
+
+    }
     form p {
         max-width: 394px;
         height: 31px;
