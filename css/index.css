@@ -87,6 +87,10 @@
 	margin: 0 auto;
 	color: #000;
 	margin-bottom: 15px;
+	background-color: #F2F2F2;
+}
+#news a:hover {
+	background-color: #ccc;
 }
 #news .news_cont {
 	display: flex;
@@ -94,7 +98,7 @@
 	align-items: center;
 	height: auto;
 	padding: 20px 0;
-	background-color: #F2F2F2;
+	
 	letter-spacing: 1.2px;
 }
 
