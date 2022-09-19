@@ -41,6 +41,8 @@ form #textarea {
     margin-bottom: 30px;
 }
 form textarea {
+    margin: 0;
+    padding: 0;
     width: 99%;
     height: 129px;
     margin-top: 2px;
