@@ -293,6 +293,9 @@ address div{
 		top: 7px;
 		transform: rotate(-45deg);
 	}
+	header nav ul li a:hover {
+		color: #ccc;
+	}
 }
 
 /*▼スマホサイズ用*/
