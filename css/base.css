@@ -124,6 +124,9 @@ header nav ul li a span {
 	text-align: center;
 	font-size: 10px;
 }
+header nav ul li a:hover {
+	color: #D65F52;
+}
 
 /*▼メインコンテンツエリア*/
 /*▼各ページタイトル*/
@@ -234,6 +237,7 @@ address div{
 	}
 	header nav ul li a span {
 		display: inline;
+		margin-left: 15px;
 		font-size:14px;
 		line-height: 14px;
 	}
